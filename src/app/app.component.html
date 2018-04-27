@@ -1,14 +1,13 @@
-<mat-sidenav-container class="all-wrap" fullscreen>
-    <div class="page-wrap">
-        <app-nav></app-nav>
-        <main class="content">
-            <router-outlet></router-outlet>
-        </main>
-        <footer>
-            <mat-toolbar color="primary" class="display-1" 
-                style="height:15px; font-size:8px;">
-                Copyright © 2018 KaKi Inc. All rights reserved.
-            </mat-toolbar>
-        </footer>
-    </div>
+<mat-sidenav-container class="all-wrap" fullscreen><div class="page-wrap" layout-align="center center">
+    <app-nav></app-nav>
+    <main class="content">
+        <router-outlet></router-outlet>
+    </main>
+    <footer>
+        <mat-toolbar color="primary" class="display-1" style="height:15px; font-size:8px;">
+            Copyright © 2018 KaKi Inc. All rights reserved.
+        </mat-toolbar>
+    </footer>
+</div>
+
 </mat-sidenav-container>
